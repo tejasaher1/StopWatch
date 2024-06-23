@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0c608f6c6b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Stopwatch</title>
+  </head>
+  <body>
+    <div class="mainDiv">
+      <div id="heading">
+        <i id="clockIcon" class="fa-solid fa-stopwatch fa-shake"></i>
+        <h2 id="title">Stop Watch</h2>
+      </div>
+      <div id="timePosition">
+        <h1 id="hour" class="changeAnimation">00</h1>
+        <span>:</span>
+        <h1 id="minute" class="changeAnimation">00</h1>
+        <span>:</span>
+        <h1 id="second" class="changeAnimation">00</h1>
+        <span>:</span>
+        <h1 id="miliSec" class="changeAnimation">00</h1>
+      </div>
+
+      <div id="timerController">
+        <button id="startBtn">Start</button>
+        <button id="stopBtn">Stop</button>
+        <button id="restartBtn">Restart</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

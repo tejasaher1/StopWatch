@@ -1,0 +1,110 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainDiv {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(45deg, #7008f8, rgb(239, 11, 239));
+  text-align: center;
+}
+
+#heading {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  /* text-align: center; */
+  /* left: 10%; */
+  /* margin-bottom: 50px; */
+}
+
+#clockIcon {
+  position: absolute;
+  top: 35%;
+  font-size: 3rem;
+  left: 38%;
+}
+
+#title {
+  position: relative;
+  color: black;
+  animation: title-animation 1s ease-in-out infinite;
+  font-size: 3.7rem;
+  left: 43%;
+}
+
+#timePosition {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 70%;
+  background-color: #000304;
+  background-image: linear-gradient(45deg, rgb(15, 1, 71), rgb(115, 245, 228));
+  left: 15%;
+  font-size: 3rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-shadow: 6px 6px 17px 2px #411d6b;
+}
+
+#timePosition > h1 {
+  margin: 5px;
+  color: white;
+}
+
+span {
+  color: white;
+}
+
+.changeAnimation {
+  /* animation: flip 0.1s ease-out infinite; */
+}
+
+#timerController {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* left: 300px; */
+  top: 50%;
+  color: white;
+}
+
+#timerController > button {
+  height: 50px;
+  width: 150px;
+  margin: 100px 100px 0px 100px;
+  font-size: 2rem;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#timerController > button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------- */
+
+/* @keyframes title-animation{
+  0%{
+    transform: translateY(0px);
+  }
+  100%{
+    transform: translateY(-100px);
+  }
+} */
+
+@keyframes flip {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(50px);
+    opacity: 0.5;
+  }
+}

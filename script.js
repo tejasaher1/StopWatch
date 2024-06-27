@@ -68,7 +68,7 @@ function updateDisplay() {
       } else {
         min = 0;
         hr++;
-        if (hr < 10) {
+        if (hr < 24) {
           displayHour.innerHTML = "0" + hr;
         } else {
           displayHour.innerHTML = hr;

@@ -26,5 +26,5 @@ A simple stopwatch app built using only vanilla JavaScript (no libraries or fram
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/vanilla-js-stopwatch.git
+   git clone https://github.com/tejasaher1/StopWatch.git
    cd vanilla-js-stopwatch
